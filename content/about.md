@@ -22,4 +22,4 @@ For the past four years I've been working as a consultant at [know.bi](https://k
 
 Feel free to reach out to me on [Twitter](https://twitter.com/yannickmols) or [Linkedin](https://www.linkedin.com/in/yannickmols/) if you have any questions or just want to have a chat!
 
-*This site is built with [Hugo](https://gohugo.io/) using the [Stack](https://github.com/CaiJimmy/hugo-theme-stack) theme and continuously deployed with [Netlify](https://www.netlify.com/).*
+*This site is built with [Hugo](https://gohugo.io/) using the [Cactus](https://github.com/monkeyWzr/hugo-theme-cactus) theme and continuously deployed with [Netlify](https://www.netlify.com/).*
