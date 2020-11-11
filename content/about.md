@@ -10,7 +10,7 @@ Hi, I'm Yannick. I do data engineering.
 
 ### Me
 
-My place of origin is Antwerp in Belgium, where I live and work. I like coding, cooking, traveling and lifting heavy things in my spare time. Challenging myself is important to me as it helps me be the best person I can be; my "motto" is productivity by challenge. I'm also a big fan of open source and prefer using the right tools for the right job.
+My place of origin is Antwerp in Belgium, where I live and work. I like coding, cooking, traveling and lifting heavy things in my spare time. Challenging myself is important to me as it helps me be the best person I can be; my "motto" is productivity by challenge. I'm also a big fan of open source and prefer using the right tools for the job.
 
 ### Writing
 

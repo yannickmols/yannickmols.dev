@@ -4,7 +4,6 @@ date: 2020-11-08T12:12:10+01:00
 draft: false
 tags: ["kafka", "streaming", "cdc"]
 description: A brief guide to streaming CDC and low latency replication
-image: "streaming-change-data-capture-topology.png"
 ---
 
 Change data capture (CDC) has been around for at least a decade if not longer. I've tried finding the first vendor to add it to their database but have only stumbled upon [articles](https://www.red-gate.com/simple-talk/sql/learn-sql-server/introduction-to-change-data-capture-cdc-in-sql-server-2008/) of 2008 or 2009 pointing to SQL Server 2008 where it was seen as more of an auditing solution rather than a way to integrate and react to changes on data.

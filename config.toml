@@ -1,83 +1,71 @@
-baseurl = "https://yannickmols.dev/"
+baseURL = "https://yannickmols.dev/"
 languageCode = "en-us"
-theme = "hugo-theme-stack"
-paginate = 5
 title = "Yannick Mols"
-DefaultContentLanguage = "en"
+theme = "cactus"
+# googleAnalytics = "UA-1234-5"
 
-[permalinks]
-    post = "/p/:slug/"
-    page = "/:slug/"
-    
-[params]
-    mainSections = ["post"]
-    featuredImageField = "image"
-    rssFullContent = true
-    favicon = "favicon.png"
-    
-    [params.dateFormat]
-        published = "Jan 02, 2006"
-        lastUpdated = "Jan 02, 2006 15:04 MST"
-        
-    [params.sidebar]
-        emoji = "✏️"
-        avatar = "img/avatar.jpg"
-        subtitle = "Data engineering, cloud & ML"
-        
-    [params.article]
-        math = true
-        [params.article.license]
-            enabled = false 
-                       
-    [params.widgets]
-        enabled = ['archives', 'tag-cloud']
-        [params.widgets.archives]
-            limit = 3
-            ### Archives page relative URL
-            path = "archives"       
-        [params.widgets.tagCloud]
-            limit = 10
+# summaryLength = 2
 
-            
-    [params.defaultImage]
-        [params.defaultImage.opengraph]
-            enabled = false
-            local = false
-            src = ""
-            
-[menu]
-    [[menu.main]]
-        identifier = "home"
-        name = "Home"
-        url = "/"
-        weight = -100
-        pre = "home"
-    [[menu.main]]
-        identifier = "about-cn"
-        name = "About"
-        url = "about"
-        weight = -90
-        pre = "user"
-    [[menu.main]]
-        identifier = "archives"
-        name = "Archives"
-        url = "archives"
-        weight = -70
-        pre = "archives"
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-[related]
-    includeNewer = true
-    threshold = 60
-    toLower = false
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
 
-    [[related.indices]]
-        name = "tags"
-        weight = 100
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
 
-    [[related.indices]]
-        name = "categories"
-        weight = 200
+[[menu.main]]
+name = "About"
+url = "about"
+weight = 4
 
 [markup]
-    [markup.highlight]
-        noClasses = false
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+[params]
+
+  colortheme = "white" # dark, light, white, or classic
+  rss = true # generate rss feed. default value is false
+  googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
+
+  # Home page settings
+  description = "Data engineering, cloud & ML"
+  mainSection = "posts" # your main section
+  showAllPostsOnHomePage = false # default
+  postsOnHomePage = 10 # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview = true # show tags overview by default.
+  showProjectsList = true # show projects list by default (if projects data file exists).
+  projectsUrl = "https://github.com/yannickmols" # title link for projects list
+
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat = "2006-01-02" # default
+
+  # Post page settings
+  show_updated = false # default
+
+  [params.comments]
+    enabled = false # default
+    engine = "disqus" # more supported engines will be added.
+
+  # the value of name should be an valid font awesome icon name (brands type)
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  [[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/yannickmols/"
+  [[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/yannickmols"
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/yannickmols"
