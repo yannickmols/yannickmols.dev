@@ -1,7 +1,7 @@
 ---
 title: "A data structures refresher with Python"
-date: 2021-02-15
-draft: true
+date: 2021-02-14
+draft: false
 tags: ["python", "algorithms"]
 description: Efficient data organization, management and storage
 ---
