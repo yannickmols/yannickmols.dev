@@ -40,7 +40,7 @@ weight = 4
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "tango"
+    style = "monokailight"
     tabWidth = 4
 
 [params]
